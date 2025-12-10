@@ -16,6 +16,13 @@ env/
 .ipynb_checkpoints/
 
 # ===================================================
+# Set the default behavior for all text files
+* text=auto
+
+# Explicitly enforce LF (Linux/Mac) line endings for all .ipynb files
+*.ipynb text eol=lf
+
+# ===================================================
 # SYSTEM / OS FILES
 # ===================================================
 .DS_Store
