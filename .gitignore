@@ -1,0 +1,86 @@
+# ===================================================
+# PYTHON BASICS
+# ===================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.env
+.venv
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# ===================================================
+# SYSTEM / OS FILES
+# ===================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===================================================
+# IDEs / EDITORS
+# ===================================================
+.vscode/
+.pycharm/
+.idea/
+*.swp
+*.swo
+
+# ===================================================
+# DATASETS & LARGE FILES
+# Compatible with structure: data/raw, data/processed, data/external
+# ===================================================
+dataset/
+ar/
+*.tsv
+*.json
+*.zip
+*.rar
+
+# ===================================================
+# MODEL FILES & OUTPUTS
+# Compatible with: models/, analytics outputs
+# ===================================================
+*.pth
+*.ckpt
+*.h5
+
+# ===================================================
+# TEMP / CACHE FILES
+# ===================================================
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+cache/
+__MACOSX/
+
+# ===================================================
+# NOTEBOOKS & CHECKPOINTS
+# Keep .ipynb files, exclude checkpoints only
+# ===================================================
+*.ipynb_checkpoints/
+*.out
+*.nbconvert.ipynb
+
+# ===================================================
+# CONFIG & SECRETS
+# ===================================================
+*.env
+config.json
+credentials.json
+token.json
+**resources.json**
+
+# ===================================================
+# OPTIONAL
+# ===================================================
+outputs/
+test_results/
+screenshots/
